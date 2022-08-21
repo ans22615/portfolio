@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* colors */
+:root{
+    --main-color:blue;
+    --secondary-color:#19AFF9;
+    --third-color:black;
+}
+body{
+    padding-bottom: 10rem;
+}
+/* genarel styles*/
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../font/Montserrat-ExtraBold.otf);
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserratp';
+    src: url(../font/Montserrat-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-size: 8rem !important;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: var(--main-color);
+    line-height: .1px;
+}
+h2{
+    color: var(--secondary-color);
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 2.9rem !important;
+}
+p{
+    font-size: 1.4rem;
+}
+.main .pro1,
+.scope,
+.user-journy,
+.users,
+.problem,
+.research,
+.afterResearchImg,
+.afterProblemImg,
+.fidelity,
+.achiveYourgoals,
+.Leveraging,
+.afterButtonImg,
+.UIChalange,
+.afterUIChalangeImg,
+.Testing,
+.afterTestingImg,
+.Issues,
+.figure,
+.responsive,
+.Development
+{
+    margin-top: 7rem;
+}
+
+.main .pro1 img,
+.user-journy img,
+.achiveYourgoals img,
+.afterTestingImg img
+{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.main .pro1 img:hover,
+.user-journy img:hover,
+.achiveYourgoals img:hover,
+.afterTestingImg img:hover
+{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: unset !important;
+    outline: 0;
+    box-shadow: unset !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: unset !important;
+    box-shadow: unset !important;
+}
+
